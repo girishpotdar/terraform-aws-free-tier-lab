@@ -76,4 +76,4 @@ Add module-based folder structure for better reusability
 👨‍💻 Author
 ------------------------
 Girish Potdar
-GitHub | LinkedIn
+[GitHub](https://github.com/girishpotdar) | [LinkedIn](https://www.linkedin.com/in/girish-potdar-525569140/)
