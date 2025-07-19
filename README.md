@@ -5,12 +5,12 @@ A hands-on lab using **Terraform** to provision AWS infrastructure within the **
 ---
 ## 📌 Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Project Structure](#file-structure)
-- [Resources](#resources)
-- [Author](#author)
+- [Features](#Features)
+- [Technologies Used](#Technologies-Used)
+- [Setup Instructions](#Setup-Instructions)
+- [Project Structure](#Project-Structure)
+- [Resources](#Resources)
+- [Author](#Author)
   
 ---
 ## 🚀 Features
@@ -49,7 +49,7 @@ A hands-on lab using **Terraform** to provision AWS infrastructure within the **
    terraform plan
    terraform apply
 
-4. DDestroy resources when done
+4. Destroy resources when done
    ```bash
    terraform destroy
 
