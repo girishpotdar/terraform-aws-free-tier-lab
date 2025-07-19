@@ -72,7 +72,9 @@ terraform-aws-free-tier-lab/
 ## ⚙️ Prerequisites
 
 Terraform v1.3+
+
 AWS CLI configured with IAM credentials
+
 An AWS account (Free Tier eligible)
 
 ---
