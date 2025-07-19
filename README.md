@@ -2,9 +2,18 @@
 
 A hands-on lab using **Terraform** to provision AWS infrastructure within the **Free Tier** limits. This project is designed to demonstrate basic infrastructure-as-code (IaC) skills, reusable modules, and deployment automation practices.
 
-------------------------
-🚀 Features
-------------------------
+---
+## 📌 Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Project Structure](#file-structure)
+- [Resources](#resources)
+- [Author](#author)
+  
+---
+## 🚀 Features
 
 - ✅ Create VPC, Subnets, Internet Gateway, Route Tables
 - ✅ Provision EC2 instance (Amazon Linux 2)
@@ -13,9 +22,40 @@ A hands-on lab using **Terraform** to provision AWS infrastructure within the **
 - ✅ Use remote state with Terraform backend (optional)
 - ✅ Written with Free Tier limits in mind
 
-------------------------
-📁 Project Structure
-------------------------
+---
+## 💻 Technologies Used
+
+- [Terraform](https://www.terraform.io/)
+- [AWS](https://aws.amazon.com/free/)
+- [GitHub](https://github.com/)
+- CLI tools: `aws-cli`, `terraform`
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/girishpotdar/terraform-aws-free-tier-lab.git
+   cd terraform-aws-free-tier-lab
+
+2. Configure AWS Credenetials
+   ```bash
+   aws configure
+
+3. Initialize and apply Terraform
+   ```bash
+   terraform init
+   terraform plan
+   terraform apply
+
+4. DDestroy resources when done
+   ```bash
+   terraform destroy
+
+------
+## 📁 Project Structure
+
 
 ```bash
 terraform-aws-free-tier-lab/
@@ -26,54 +66,31 @@ terraform-aws-free-tier-lab/
 ├── provider.tf        # AWS provider config
 ├── terraform.tfvars   # Variable values
 └── README.md          # Project documentation
+```
+---
 
-------------------------
-⚙️ Prerequisites
-------------------------
+## ⚙️ Prerequisites
+
 Terraform v1.3+
 AWS CLI configured with IAM credentials
 An AWS account (Free Tier eligible)
 
-
-------------------------
-🔧 Setup & Usage
-------------------------
-
-# 1. Clone the repo
-git clone https://github.com/girishpotdar/terraform-aws-free-tier-lab.git
-cd terraform-aws-free-tier-lab
-
-# 2. Initialize Terraform
-terraform init
-
-# 3. Review the execution plan
-terraform plan
-
-# 4. Apply the infrastructure changes
-terraform apply
-
-# 5. Destroy resources when done
-terraform destroy
+---
+## 📚 Resources
 
 
-------------------------
-🔐 Security & Cost
-------------------------
+---
+## 🔐 Security & Cost
+
 
 All resources are created within AWS Free Tier limits.
 
 Always run terraform destroy to avoid unintended charges.
 
-------------------------
-📦 Optional Improvements
-------------------------
 
-Add remote backend with S3 + DynamoDB
-Add EC2 provisioning via user data or Ansible
-Add module-based folder structure for better reusability
 
-------------------------
-👨‍💻 Author
-------------------------
+---
+## 👨‍💻 Author
+
 Girish Potdar
 [GitHub](https://github.com/girishpotdar) | [LinkedIn](https://www.linkedin.com/in/girish-potdar-525569140/)
